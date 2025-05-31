@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Subhasta d'art contemporani</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="capcalera">
+        <h1>AUCTION</h1>
+        <h2>Cada decisió marca l'obra. Però també ens defineix com a societat.</h2>
+    </section>
+    
+<!-- Inici galeria (nou fons) -->
+<section class="contingut-galeria">
+    <div class="galeria">
+
+        <!-- PRODUCTE 1 -->
+        <div class="bloc-producte">
+        <h3>Exhibit B</h3>
+        <div class="imatge-container">
+            <div class="contenidor-horitzontal">
+            <img src="img10.jpg" alt="Imatge 1" id="img1" class="img-base">
+            <p class="text-fix">
+                <strong>Autor / Artista:</strong> Bailey, B.<br>
+                <strong>Any:</strong> 2010<br>
+                <strong>Tipus d’obra:</strong> Instal·lació performativa<br>
+                <strong>Descripció:</strong> Exhibit B és una instal·lació performativa que explora temes de colonització, racisme i la representació històrica a través de la posada en escena d’imatges i figures humanes en contextos museístics crítics.
+
+            </p>
+            </div>
+        </div>
+
+        <div class="interaccio">
+            <div class="numero" id="num1" data-inicial="100000" data-clicks="0">Preu: 100.000 €</div>
+            <button onclick="sonaSo('comprar'); vendreObra('img1')">Comprar</button>
+            <button onclick="sonaSo('censurar'); incrementaValorICanviaImatge('num1', 'img1', 11)">Censurar</button>
+        </div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+        <!-- PRODUCTE 2-->
+        <div class="bloc-producte">
+        <div class="imatge-container">
+        <div class="contenidor-horitzontal">
+            <img src="imgs/img2.jpg" alt="Imatge 1" id="img1" class="img-base">
+            <p class="text-fix">una macaca i un macaco</p>
+        </div>
+        </div>
+
+        <div class="interaccio">
+            <div class="numero" id="num1">5</div>
+            <button class="boto" onclick="substitueixImatge('img1', 'imgs/img3.jpg')">A</button>
+            <button class="boto" onclick="multiplica('num1')">B</button>
+        </div>
+        </div>
+
+        <!-- PRODUCTE 3-->
+        <div class="bloc-producte">
+        <div class="imatge-container">
+        <div class="contenidor-horitzontal">
+            <img src="imgs/img2.jpg" alt="Imatge 1" id="img1" class="img-base">
+            <p class="text-fix">una macaca i un macaco</p>
+        </div>
+        </div>
+
+        <div class="interaccio">
+            <div class="numero" id="num1">5</div>
+            <button class="boto" onclick="substitueixImatge('img1', 'imgs/img3.jpg')">A</button>
+            <button class="boto" onclick="multiplica('num1')">B</button>
+        </div>
+        </div>
+
+
+    </div>
+</section>
+  
+
+  <script src="script.js"></script>
+
+</body>
+</html>
