@@ -1,17 +1,3 @@
-const soComprar = new Audio('mercadona.mp3');
-const soCensurar = new Audio('fart.mp3');
-
-function sonaSo(accio) {
-  if (accio === 'comprar') {
-    soComprar.currentTime = 0;
-    soComprar.play();
-  } else if (accio === 'censurar') {
-    soCensurar.currentTime = 0;
-    soCensurar.play();
-  }
-}
-
-
 
 //CENSURA OBRA
 function incrementaValorICanviaImatge(idNumero, idImatge, baseImatgeCensura) {
