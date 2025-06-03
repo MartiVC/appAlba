@@ -98,20 +98,28 @@ h3 {
   margin: 10px 0;
 }
 
-/* boto de compra i venta */
+/* boto de compra i venda */
 .boto {
-  margin: 5px;
-  padding: 6px 12px;
+  margin: 10px 5px 100px 5px;
+  padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 12px;
   cursor: pointer;
-  margin-bottom: 100px;
+  font-weight: 600;
+  font-size: 16px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  box-shadow: 0 4px 8px rgba(37, 117, 252, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
 }
 
-/*efecte quan es passa el ratolí per sobre del boto*/
+/* efecte quan es passa el ratolí per sobre del boto */
 .boto:hover {
-  background-color: #eee;
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  box-shadow: 0 6px 12px rgba(37, 117, 252, 0.6);
+  transform: translateY(-3px);
 }
+
 
 
 
